@@ -2,10 +2,38 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+    <title>Project-1</title>
   </head>
   <body>
     <script src="script.js"></script>
-    <h1>Hello World!</h1>
-  </body>
+    
+    <header>
+       <h1>Super Hero's List</h1>
+       <div id="hero-menu">
+       </div>
+    </header>
+
+    <main>
+    <div id="hero-detail">
+        <img id="hero-image" src="" alt="Image Goes Here" />
+        <h2 id="hero-name">Name Goes Here</h2>
+        <h2 id="real-name">Real Name </h2>
+        <h2 id="hometown">Hometown</h2>
+        <h1 id="description">Description Goes Here</h1>
+    </div>
+
+    <form id="new-hero">
+        <h3>Create a new Super Hero</h3>
+        <label for="name">Name: </label>
+        <input type="text" id="new-name" name="name"/>
+        <label for="hero-name">Super Hero's Name: </label>
+        <input type="text" id="new-hero-name" name="hero-name"/>
+        <label for="hometown">Hometown: </label>
+        <input type="text" id="new-hometown" name="hometown" />
+        <label for="description">Description: </label>
+        <textarea type="text" id="hero-description" name="description"></textarea>
+        <input type="submit" value="Create" />
+    </form>
+    </main>
+</body>
 </html>
