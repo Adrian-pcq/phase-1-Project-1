@@ -5,10 +5,10 @@
     <title>Project-1</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     
     <header>
-       <h1>Super Hero's List</h1>
+       <h1>Superhero's List</h1>
        <div id="hero-menu">
        </div>
     </header>
@@ -22,16 +22,18 @@
         <h1 id="description">Description Goes Here</h1>
     </div>
 
-    <form id="new-hero">
+    <form id="newHero">
         <h3>Create a new Super Hero</h3>
         <label for="name">Name: </label>
-        <input type="text" id="new-name" name="name"/>
+        <input type="text" name="name" id="new-name" />
         <label for="hero-name">Super Hero's Name: </label>
-        <input type="text" id="new-hero-name" name="hero-name"/>
+        <input type="text"   name="hero-name" id="new-hero-name"/>
         <label for="hometown">Hometown: </label>
-        <input type="text" id="new-hometown" name="hometown" />
+        <input type="text" name="hometown"  id="new-hometown" />
         <label for="description">Description: </label>
-        <textarea type="text" id="hero-description" name="description"></textarea>
+        <textarea type="text"  name="description" id="hero-description"></textarea>
+        <label for="image">Image: </label>
+        <input type="text" name="new-image" id="new-image"  />
         <input type="submit" value="Create" />
     </form>
     </main>

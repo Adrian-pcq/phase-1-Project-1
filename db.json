@@ -2,42 +2,42 @@
     "superheroes":[
         {
             "id":1,
-            "name": "SpyderMan",
-            "realName": "Petter Parker",
-            "hometown": "",
-            "description": "",
+            "name": "Spyder-Man",
+            "realName": "Peter Parker",
+            "hometown": "Queens",
+            "description": "Superhuman strength, speedreflexes, agility, coordination and balance. Ability to cling to solid surfaces. Accelerated healing, genius level intellect, proficient scientist and engineer, precognitive spider-sense ability",
             "image": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/1/13/Spider-Man-Homecoming-Poster-Crop.jpg/revision/latest?cb=20170412073311"
         },
         {
             "id":2,
             "name": "Captain America",
             "realName": "Steve Rogers",
-            "hometown": "",
-            "description": "",
+            "hometown": "New York",
+            "description": "Superhuman strength, speed, endurance, durability and reflexes. Accelerated healing and longevity. Expert tactician and strategist. Master hand-to-hand combatant",
             "image": "https://www.screengeek.net/wp-content/uploads/2018/11/captain-america-mcu.jpg"
         },
         {
             "id":3,
             "name": "Hulk",
             "realName": "Bruce Banner",
-            "hometown": "",
-            "description": "",
+            "hometown": "Ohio",
+            "description": "Superhuman strength which grows with anger",
             "image": "https://th.bing.com/th/id/R.48b6e28466faac2b78add3127d19e202?rik=tZWcuaCH3qAo1g&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20120824133643%2fmarvel-cinematic-universe%2fimages%2fd%2fd8%2fRuffalo_Hulk.png&ehk=3oHUabjlonCQgKVYsIA2cKlpR%2foJ%2fxUZ906sNQ%2bHlyQ%3d&risl=&pid=ImgRaw&r=0"
         },
         {
             "id":4,
             "name": "Iron Man",
             "realName": "Tony Stark",
-            "hometown": "",
-            "description": "",
+            "hometown": "New York",
+            "description": "Genius level intellect, proficient scientist and engineer, powered armor suit granting: superhuman strength, speed, durability, agility, reflexes, and senses, energy repulsor and missile projection, regenerative life support, supersonic flight",
             "image": "https://i.pinimg.com/originals/d2/f5/f6/d2f5f65499cfddad25214ff621db2682.jpg"
         },
         {
             "id":5,
             "name":"Thor",
-            "realName": "Thor",
+            "realName": "Thor Odinson",
             "hometown": "Asgard",
-            "description": "",
+            "description": "superhuman strength, speed, agility, durability and immunity to most diseases, ",
             "image": "https://th.bing.com/th/id/R.62ff2253f6d05cb95dc8597dbf061e04?rik=xV%2fBtReF525s2Q&riu=http%3a%2f%2fhdqwalls.com%2fdownload%2fthor-avengers-endgame-5y-640x960.jpg&ehk=W6GIA5MTZw5ViVikU4kLTdrsBN2ju8TgLijLiQxhcSc%3d&risl=&pid=ImgRaw&r=0"
         }
     ]

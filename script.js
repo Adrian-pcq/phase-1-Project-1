@@ -29,4 +29,36 @@ function renderHero(hero){
         description.textContent = hero.description
     }
 
+    
+
 }
+
+const newform = document.getElementById("newHero")
+console.log(document.getElementById("hero-detail"))
+newform.addEventListener("submit", e =>{
+    e.preventDefault()
+    const newHero = {
+        name: e.target.name.value,
+        realName: e.target["hero-name"].value,
+        hometown: e.target.hometown.value,
+        description: e.target.description.value,
+        image: e.target["new-image"].value
+    };
+    renderHero(newHero)
+})
+
+
+document.addEventListener("click", e =>{
+    const elemSelect = e.target
+    elemSelect.classList.add("selected")
+})
+
+
+document.addEventListener("keydown",e =>{
+    console.log(e)
+    if(e.key === "Delete"){
+        const elementDelete = document.querySelector(".selected")
+        if (elementDelete){
+            elementDelete.remove()}
+    }
+})
