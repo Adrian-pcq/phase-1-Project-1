@@ -13,7 +13,6 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   
@@ -32,7 +31,7 @@
     overflow: scroll;
     height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     max-width: fit-content;
   }
   
@@ -40,12 +39,6 @@
     flex: 0 1 auto;
     height: 150px;
     margin-bottom: 0.5rem;
-    cursor: pointer;
-  }
-  
-  
-  #hero-detail {
-    position: relative;
   }
 
   #hero-image{
@@ -61,7 +54,7 @@
     padding: 0.25rem 5rem 0.25rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
     width:max-content;
-  
+
   }
   
   #hero-name {
@@ -77,19 +70,7 @@
 
   #description{
     background-color:rgba(255, 255, 255, 0.8);
-    bottom:10px;
-    display:flex;
-    flex-direction: column;
-  }
- 
-  #new-hero {
-    
-    margin: 1rem 0;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-   
-  
+    bottom:20px;
   }
   
   input,
@@ -107,10 +88,9 @@
     border: 1px solid white;
     background-color: black;
     cursor: pointer;
-    transition: all 0.3s;
   }
  
-  form h3 {
+  h3 {
     width: 100%;
     padding: 0.25rem;
     margin: 0.5rem 0;
