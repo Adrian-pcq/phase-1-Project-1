@@ -23,10 +23,10 @@ function renderHero(hero){
 
         heroImage.src = hero.image
         heroImage.alt = hero.name
-        heroName.textContent = hero.name
-        realName.textContent = hero.realName
-        hometown.textContent= hero.hometown
-        description.textContent = hero.description
+        heroName.textContent = `Superhero Name: ${hero.name}`
+        realName.textContent = `Name: ${hero.realName}`
+        hometown.textContent= `Hometown: ${hero.hometown}`
+        description.textContent = `Skills: ${hero.description}`
     }
 
     

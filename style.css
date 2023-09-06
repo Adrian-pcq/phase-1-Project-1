@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
   }
   main {
+    padding: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -56,17 +57,19 @@
   #real-name,
   #hometown {
     position: relative;
+    left: 10px;
     padding: 0.25rem 5rem 0.25rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
-
+    width:max-content;
+  
   }
   
   #hero-name {
-    bottom: 120px;
+    bottom: 100px;
   }
   
   #real-name {
-    bottom: 100px;
+    bottom: 80px;
   }
   #hometown{
     bottom: 60px;
@@ -74,16 +77,18 @@
 
   #description{
     background-color:rgba(255, 255, 255, 0.8);
-    bottom:10px
+    bottom:10px;
+    display:flex;
+    flex-direction: column;
   }
  
   #new-hero {
-    position:relative;
+    
     margin: 1rem 0;
     width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+   
   
   }
   
@@ -114,5 +119,6 @@
   }
   
   label{
-    color:white
+    background-color: rgba(255, 255, 255, 0.581)
+
   }
