@@ -29,12 +29,23 @@ function renderHero(hero){
         description.textContent = `Skills: ${hero.description}`
     }
 
-    
+    imageHero.addEventListener("click", e =>{
+        const elemSelect = e.target
+        if(elemSelect === document.querySelector(".selected")){
+            elemSelect.classList.remove("selected")
+        }else{elemSelect.classList.add("selected")}
+        document.addEventListener("keydown",e =>{
+            if(e.key === "Delete"){
+                if(document.querySelector(".selected"))
+                elemSelect.remove()
+            }
+        })
+        
+    })
 
 }
 
 const newform = document.getElementById("newHero")
-console.log(document.getElementById("hero-detail"))
 newform.addEventListener("submit", e =>{
     e.preventDefault()
     const newHero = {
@@ -45,20 +56,4 @@ newform.addEventListener("submit", e =>{
         image: e.target["new-image"].value
     };
     renderHero(newHero)
-})
-
-
-document.addEventListener("click", e =>{
-    const elemSelect = e.target
-    elemSelect.classList.add("selected")
-})
-
-
-document.addEventListener("keydown",e =>{
-    console.log(e)
-    if(e.key === "Delete"){
-        const elementDelete = document.querySelector(".selected")
-        if (elementDelete){
-            elementDelete.remove()}
-    }
 })

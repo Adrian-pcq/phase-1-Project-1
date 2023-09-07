@@ -39,6 +39,22 @@
             "hometown": "Asgard",
             "description": "superhuman strength, speed, agility, durability and immunity to most diseases, ",
             "image": "https://th.bing.com/th/id/R.62ff2253f6d05cb95dc8597dbf061e04?rik=xV%2fBtReF525s2Q&riu=http%3a%2f%2fhdqwalls.com%2fdownload%2fthor-avengers-endgame-5y-640x960.jpg&ehk=W6GIA5MTZw5ViVikU4kLTdrsBN2ju8TgLijLiQxhcSc%3d&risl=&pid=ImgRaw&r=0"
+        },
+        {
+            "id":6,
+            "name":"Black Panther",
+            "realName":"T'Challa",
+            "hometown":"Wakanda",
+            "description":"Superhuman strength, durability, speed, agility, stamina, reflexes and healing.The armor of the Black Panther grants its wearer kinetic energy absorption",
+            "image":"https://supplyleader.com/attach_files/113510/de5bf07538120a9cdb235b3a88790767.jpg"
+        },
+        {
+            "id":7,
+            "name":"Captain Marvel",
+            "realName":"Carol Danvers",
+            "hometown":"",
+            "description":"Superhuman strength, speed, durability, agility, stamina, and reflexes. Energy manipulation, absorption, and projection. Seventh sense granting flash precognition. Accelerated healing factor, near-invulnerability, flight/space flight",
+            "image":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/a/ae/Textless_Captain_Marvel_Theatrical_Poster.jpg/revision/latest/scale-to-width-down/2000?cb=20181204034752"
         }
     ]
 }
