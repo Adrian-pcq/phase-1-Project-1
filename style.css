@@ -29,7 +29,7 @@
   
   #hero-menu {
     overflow: scroll;
-    height: 90vh;
+    height: 800px;
     display: flex;
     flex-direction:column;
     max-width: fit-content;
@@ -51,7 +51,6 @@
   #hometown {
     position: relative;
     left: 10px;
-    padding: 0.25rem 5rem 0.25rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
     width:max-content;
 
@@ -103,6 +102,6 @@
   }
   
   label{
-    background-color: rgba(255, 255, 255, 0.581)
+    background-color: rgba(255, 255, 255, 0.5)
 
   }
